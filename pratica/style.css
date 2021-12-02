@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timeline-section{
+    min-height: 100vh;
+    padding: 100px 25px;
+    background-color: #24292d;
+}
+
+.timeline-items{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timeline-item{
+    background-color: #2f363e;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+}
+
+.timeline-item:nth-child(even){
+    padding-left: calc(50%+30px);
+}
